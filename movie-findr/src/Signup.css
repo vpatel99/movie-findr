@@ -4,27 +4,27 @@
   height: 100vh;
 }
 
-.login {
+.signup {
   align-items: center;
   display: flex;
   flex-direction: column;
   background-color: #2c2c2c;
 }
 
-.login__logo {
+.signup__logo {
   width: 200px;
   object-fit: contain;
   margin-bottom: 3rem;
-  margin-top: 18rem;
+  margin-top: 14rem;
 }
 
-.login_fields {
+.signup_fields {
   display: flex;
   flex-direction: column;
   width: 22rem;
 }
 
-.login__labels {
+.signup__labels {
   color: white;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
@@ -32,7 +32,7 @@
   font-weight: normal;
 }
 
-.login__email {
+.signup__email {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   background-color: #615967;
@@ -43,7 +43,7 @@
   border-radius: 10px 10px 10px 10px;
 }
 
-.login__password {
+.signup__password {
   margin-top: 0.5rem;
   background-color: #615967;
   height: 12px;
@@ -53,18 +53,19 @@
   border-radius: 10px 10px 10px 10px;
 }
 
-.login__button {
+.signup__button {
   margin-top: 2rem;
   background-color: #566685;
   color: white;
   font-size: 1.3rem;
   width: 200px;
-  height: 40px;
+  height: 45px;
   font-family: "Montserrat", sans-serif;
   border-radius: 10px 10px 10px 10px;
   border-style: solid;
   border-color: #566685;
 }
+
 .empty {
   display: flex;
   flex-direction: column;
@@ -73,18 +74,18 @@
   color: black;
 }
 
-.login__dont {
+.signup__dont {
   margin-top: 4rem;
   color: white;
   font-size: 1.2rem;
 }
 
-.login__create {
+.signup__create {
   margin-top: -0.1rem;
   color: #a19ff2;
   font-size: 1.2rem;
 }
-.login__link {
+.signup__link {
   display: flex;
   flex-direction: column;
   align-items: center;

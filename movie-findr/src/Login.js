@@ -30,7 +30,11 @@ function Login() {
           ></input>
         </div>
         <button className="login__button">see your movies!</button>
-        <Link to="signup" className="login__link">
+        <Link
+          to="signup"
+          className="login__link"
+          style={{ textDecoration: "none" }}
+        >
           <span className="login__dont">don’t have an account?</span>
           <span className="login__create">create account</span>
         </Link>
