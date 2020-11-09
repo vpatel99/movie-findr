@@ -14,10 +14,10 @@ function Header() {
         </div>
         <div className="spacer"></div>
         <div className="header__nav__options">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <div className="log">log in</div>
+          <Link to="/login" style={{ textDecoration: "none" }}>
+            <button className="log">log in</button>
           </Link>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/signup" style={{ textDecoration: "none" }}>
             <div className="sign">create account</div>
           </Link>
         </div>
